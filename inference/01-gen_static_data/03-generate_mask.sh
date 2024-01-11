@@ -1,0 +1,1 @@
+gdal_rasterize -burn 1 -l swissBOUNDARIES3D_1_3_TLM_LANDESGEBIET -of GTiff -init 0 -co TILED=YES -te 2485410.215 1075268.1363 2833857.7237 1295933.6975 -ts 34858 22075 ../assets/switzerland_shp/swissBOUNDARIES3D_1_3_TLM_LANDESGEBIET.shp ../data/mask/mask_LV95.tif
